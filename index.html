@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Graph Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>JavaScript Graph Generator</h1>
+  <div class="container">
+    <form id="graph-form">
+      <label for="graph-type">Graph Type:</label>
+      <select id="graph-type" name="graph-type" class="input-field">
+        <option value="bar">Bar Graph</option>
+        <option value="line">Line Graph</option>
+        <option value="pie">Pie Chart</option>
+      </select>
+      <label for="data">Data:</label>
+      <textarea id="data" name="data" class="input-field"></textarea>
+      <button id="generate-graph" class="button">Generate Graph</button>
+    </form>
+  </div>
+  <div id="graph-container"></div>
+  <script src="script.js"></script>
+</body>
+</html>
