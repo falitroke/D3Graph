@@ -1,0 +1,17 @@
+# Ignore files and directories
+node_modules/
+npm-debug.log
+package-lock.json
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore specific files
+*.js.map
+*.css.map
+*.html.map
+
+# Ignore directories
+node_modules/
+bower_components/
